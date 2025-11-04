@@ -91,8 +91,8 @@ width: 50%;
 width: 33%;
 }
 
-.w-25 {
-width: 25%;
+.w-23 {
+width: 23%;
 }
 
 
@@ -138,7 +138,7 @@ h1 {
 
 /* SECTION SERVICES */ 
 .card {
-    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.264) ;
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.264) ;
     border-radius: 20px;
     padding: 20px;
 }
