@@ -1,0 +1,152 @@
+/* RESET : permet d'effacer le style par défaut imposé par le navigateur */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.btn{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.btn-primary{
+    font-size: 25px;
+}
+
+.btn-secondary{
+    font-size: 14px;
+}
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.container-1200 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+/* CLASSES FONCTIONNELLES FLEX BOX */
+
+/* rendre flexible un parent = aligner ses enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* CLASSES DE DIMENSIONS */
+
+.w-100{
+width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-50 {
+width: 50%;
+}
+
+.w-33 {
+width: 33%;
+}
+
+.w-25 {
+width: 25%;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 10px 64px;
+   /* background-color: rgb(209, 209, 209);*/
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.178);
+}
+
+.logo {
+    width: 70px;
+}
+
+header ul {
+    list-style: none;
+}
+
+/* SECTION HERO */ 
+
+.section-hero {
+    background-image: url("asset/Placeholder-img-rect-big.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.section-hero div {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.section-hero div>p {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* SECTION SERVICES */ 
+.card {
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.264) ;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
